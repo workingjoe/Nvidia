@@ -19,6 +19,8 @@
 ---
 * [Forum](https://devtalk.nvidia.com/default/board/139/embedded-systems/1)
 * [Boot_from_USB](https://jetsonhacks.com/2021/03/10/jetson-nano-boot-from-usb/)
+* [Boot_from_USB_github](https://github.com/JetsonHacksNano/bootFromUSB)
+  
 
 # Ubuntu USER:nvidia PWD:nvidia
 
