@@ -32,4 +32,38 @@
 [youyeetoo shop](https://youyeetoo.com/nvidia-jetson-tx2-development-kit-8-gb-128-bit-lpddr4-32-gb-emmc-the-ai-solution-for-autonomous-machines-p0017.html)
 [Aliexpress](https://www.aliexpress.com/item/32918486835.html)
 
+---
+# FAN issue
+
+https://www.youyeetoo.com/products/jetson-nano-b01-subkit-nano-kit?VariantsId=10564
+
+
+“sudo jetson_clocks --show”  
+
+sudo sh -c ‘echo 255 > /sys/devices/pwm-fan/target_pwm’ 
+
+ON :
+sudo sh -c ‘echo 255 > /sys/devices/pwm-fan/target_pwm’
+
+OFF :
+sudo sh -c ‘echo 0 > /sys/devices/pwm-fan/target_pwm’
+(slowly turned off)
+
+
+https://github.com/Pyrestone/jetson-fan-ctl
+
+
+Before launching jetson_clocks.sh script for boosting, 
+you can store your clocks config into file /home/ubuntu/l4t_dfs.conf and later restore with :
+
+```
+sudo /home/ubuntu/jetson_clocks.sh --store       # save clocks config into l4t_dfs.conf file
+sudo /home/ubuntu/jetson_clocks.sh               # boost clocks
+sudo /home/ubuntu/jetson_clocks.sh --restore     # restore clocks config from l4t_dfs.conf file
+```
+
+Back to slow clocks, after a while when heat will have decreased enough, the fan will stop.
+
+---
+
 
