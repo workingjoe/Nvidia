@@ -65,5 +65,51 @@ sudo /home/ubuntu/jetson_clocks.sh --restore     # restore clocks config from l4
 Back to slow clocks, after a while when heat will have decreased enough, the fan will stop.
 
 ---
+# EDIMAX WiFi
 
+* [These instructions are from SPARKFUN](https://learn.sparkfun.com/tutorials/adding-wifi-to-the-nvidia-jetson/all)
+
+--
+## Download the N150 Drivers
+
+You can download the appropriate drivers by opening a terminal and entering the following command:
+
+
+* git clone https://github.com/lwfinger/rtl8723bu.git [Enter]
+
+Once the download is complete you can navigate into the drivers directory with the following command:
+
+* cd rtl8723bu and then [Enter]
+
+You are now in the the directory (folder) to start the install process for the drivers!
+## Installing the Drivers
+
+There are a couple of methods to install these drivers on a single board computer or really any other Linux computer. You can check out the README file of the GitHub repository to compile and install them from scratch, but we are going to install them through Dynamic Kernel Module Support (DKMS). These instructions can be found at the bottom of the README for the drivers, but we will reiterate them here.
+
+Assuming you are still in the driver directory named “rtl8723bu” type the following command:
+
+* source dkms.conf [Enter]
+
+Once you get the command prompt back (which should almost be instantaneous) type the following command to create a working project directory:
+
+* sudo mkdir /usr/src/$PACKAGE_NAME-$PACKAGE_VERSION [Enter]
+
+With the directory created, type the following to move a number of files to your working project directory:
+
+* sudo cp -r core hal include os_dep platform dkms.conf Makefile rtl8723b_fw.bin /usr/src/$PACKAGE_NAME-$PACKAGE_VERSION [Enter]
+
+We finally add those files to DKMS with by executing the following command:
+
+* sudo dkms add $PACKAGE_NAME/$PACKAGE_VERSION [Enter]
+
+Now that everything is ready and in its place we can finally install the drivers by typing the following command:
+
+* sudo dkms autoinstall $PACKAGE_NAME/$PACKAGE_VERSION [Enter]
+
+DKMS will take a number of actions to install the drivers including cleaning up after itself and deleting unnecessary files and directories. Once the DKMS completes the installation you should get a positive confirmation of the installation!
+
+With the installation complete it is a good idea to reboot your Nvidia Jetson Nano with this command:
+
+* sudo reboot now [Enter]
+---
 
