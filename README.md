@@ -1,6 +1,10 @@
 # Nvidia
 
-* I think I'm getting this one [youteetoo](https://www.youyeetoo.com/blog/detail/jetson-nano-module-b-with-16g-emmc-nv0031-nv0030-35)
+* I got this one [youteetoo](https://www.youyeetoo.com/products/jetson-nano-b01-subkit-nano-kit?VariantsId=10564)
+* I thought it was this one [youteetoo](https://www.youyeetoo.com/blog/detail/jetson-nano-module-b-with-16g-emmc-nv0031-nv0030-35)
+
+* [Nano_FAN_issues](https://gr33nonline.wordpress.com/2022/07/04/jetson-nano-fan-issues/)
+* [Jetson_Hacks](https://jetsonhacks.com/2019/10/10/jetson-nano-uart/)
 
 * [Arrow datasheets](https://static6.arrow.com/aropdfconversion/d6d7d39921458360765c21faf5c22a3988a06ba9/jetson-nano-devkit-datasheet.pdf)
 * [SiliconHighway_datasheet](https://siliconhighway.com/wp-content/gallery/jetson-nano-module-datasheet-us-1031771-r3-hr.pdf)
