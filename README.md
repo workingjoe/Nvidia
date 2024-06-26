@@ -10,7 +10,12 @@
 * [SiliconHighway_datasheet](https://siliconhighway.com/wp-content/gallery/jetson-nano-module-datasheet-us-1031771-r3-hr.pdf)
 * [Arrow_other](https://www.arrow.com/en/products/945-13450-0000-000/nvidia)
 * [Nvidia_datasheet](https://developer.nvidia.com/embedded/dlc/jetson-nano-system-module-datasheet)
+---
+# Other folks
+* [Jetson_Easy_setup](https://github.com/rbonghi/jetson_easy)
+* [Jtop](https://github.com/rbonghi/jetson_stats)
 
+* 
 ---
 # DOCS
 
