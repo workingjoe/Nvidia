@@ -15,6 +15,9 @@
 * [Jetson_Easy_setup](https://github.com/rbonghi/jetson_easy)
 * [Jtop](https://github.com/rbonghi/jetson_stats)
 
+* [Update_to_20.04](https://qengineering.eu/install-ubuntu-20.04-on-jetson-nano.html)
+* 
+
 * 
 ---
 # DOCS
