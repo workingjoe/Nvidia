@@ -18,7 +18,8 @@
 * [Update_to_20.04](https://qengineering.eu/install-ubuntu-20.04-on-jetson-nano.html)
 * 
 
-* 
+* [Dusty_Franklin_Jetson_Utils](https://github.com/dusty-nv/jetson-utils)
+  
 ---
 # DOCS
 
