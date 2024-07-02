@@ -1,3 +1,12 @@
+/*
+   https://www.youtube.com/watch?v=nOxKexn3iBo
+
+   https://github.com/cuda-mode/lecture2
+
+   https://colab.research.google.com/drive/180uk6frvMBeT4tywhhYXmz3PJaCIA_uk?usp=sharing
+
+*/
+
 
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
