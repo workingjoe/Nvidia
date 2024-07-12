@@ -2,6 +2,7 @@
 
 * I got this one [youteetoo](https://www.youyeetoo.com/products/jetson-nano-b01-subkit-nano-kit?VariantsId=10564)
 * I thought it was this one [youteetoo](https://www.youyeetoo.com/blog/detail/jetson-nano-module-b-with-16g-emmc-nv0031-nv0030-35)
+* I *think* use of SD card vs EMMC is enabled via this device-tree mod[youteetoo_wiki](https://wiki.youyeetoo.com/en/JETSON_NANO/Firmwareupdate)
 
 * [Nano_FAN_issues](https://gr33nonline.wordpress.com/2022/07/04/jetson-nano-fan-issues/)
 * [Jetson_Hacks](https://jetsonhacks.com/2019/10/10/jetson-nano-uart/)
