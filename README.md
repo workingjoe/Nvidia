@@ -22,6 +22,8 @@
 * [QEngineering_Jetson_Nano](https://qengineering.eu/install-opencv-on-jetson-nano.html)
 
 * [Dusty_Franklin_Jetson_Utils](https://github.com/dusty-nv/jetson-utils)
+
+* [AAEON_Boxer_8221AI-B1_Jetson_Nano_images](https://partnerzone.aaeon.com.tw/NAS/directory/Projects/BOXER-8221AI-B/Images/)
   
 ---
 # DOCS
