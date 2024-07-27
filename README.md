@@ -25,7 +25,7 @@
 
 * [AAEON_Boxer_8221AI-B1_Jetson_Nano_images](https://partnerzone.aaeon.com.tw/NAS/directory/Projects/BOXER-8221AI-B/Images/)
 
-* [Yocto_Open_Embedded_for_Tegra]{https://github.com/OE4T)
+* [Yocto_Open_Embedded_for_Tegra](https://github.com/OE4T)
 * 
   
 ---
