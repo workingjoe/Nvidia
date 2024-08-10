@@ -27,6 +27,11 @@
 
 * [Yocto_Open_Embedded_for_Tegra](https://github.com/OE4T)
 * 
+
+---
+# Lots of really good stuff
+[Install_Scripts_OpenCV](https://github.com/spmallick/learnopencv/tree/master/InstallScripts)
+[LearnOpenCV](https://github.com/spmallick/learnopencv)
   
 ---
 # DOCS
