@@ -1,4 +1,6 @@
-
+Look at:
+https://forums.developer.nvidia.com/t/any-hardware-acceleration-possible-in-gstreamer-pipeline-for-usb-camera/145299/4
+https://forums.developer.nvidia.com/t/get-3840-2160-yuv-from-v4l2-camera-with-gstreamer-pipeline-on-xavier/112519/5
 
 v4l2-ctl -d2 --list-formats-ext 
   has 640x480 YUYV 4:2:2  at 30/25/20/15/10/5 fps
