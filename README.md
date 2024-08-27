@@ -1,7 +1,6 @@
 # Nvidia
 
 * I got this one [youteetoo](https://www.youyeetoo.com/products/jetson-nano-b01-subkit-nano-kit?VariantsId=10564)
-* I thought it was this one [youteetoo](https://www.youyeetoo.com/blog/detail/jetson-nano-module-b-with-16g-emmc-nv0031-nv0030-35)
 * I *think* use of SD card vs EMMC is enabled via this device-tree mod[youteetoo_wiki](https://wiki.youyeetoo.com/en/JETSON_NANO/Firmwareupdate)
 
 * [Nano_FAN_issues](https://gr33nonline.wordpress.com/2022/07/04/jetson-nano-fan-issues/)
@@ -59,21 +58,14 @@
 
 https://www.youyeetoo.com/products/jetson-nano-b01-subkit-nano-kit?VariantsId=10564
 
-
 “sudo jetson_clocks --show”  
-
 sudo sh -c ‘echo 255 > /sys/devices/pwm-fan/target_pwm’ 
-
 ON :
 sudo sh -c ‘echo 255 > /sys/devices/pwm-fan/target_pwm’
-
 OFF :
 sudo sh -c ‘echo 0 > /sys/devices/pwm-fan/target_pwm’
 (slowly turned off)
-
-
 https://github.com/Pyrestone/jetson-fan-ctl
-
 
 Before launching jetson_clocks.sh script for boosting, 
 you can store your clocks config into file /home/ubuntu/l4t_dfs.conf and later restore with :
@@ -85,9 +77,8 @@ sudo /home/ubuntu/jetson_clocks.sh --restore     # restore clocks config from l4
 ```
 
 Back to slow clocks, after a while when heat will have decreased enough, the fan will stop.
-
 ---
-# EDIMAX WiFi
+# EDIMAX WiFi -- build kernel-module for this 2.4Ghz sad little adapter
 
 * [These instructions are from SPARKFUN](https://learn.sparkfun.com/tutorials/adding-wifi-to-the-nvidia-jetson/all)
 
@@ -95,7 +86,6 @@ Back to slow clocks, after a while when heat will have decreased enough, the fan
 ## Download the N150 Drivers
 
 You can download the appropriate drivers by opening a terminal and entering the following command:
-
 
 * git clone https://github.com/lwfinger/rtl8723bu.git [Enter]
 
