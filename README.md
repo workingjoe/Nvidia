@@ -5,6 +5,9 @@
 
 * [Nano_FAN_issues](https://gr33nonline.wordpress.com/2022/07/04/jetson-nano-fan-issues/)
 * [Jetson_Hacks](https://jetsonhacks.com/2019/10/10/jetson-nano-uart/)
+* [Jetson_Performance](https://elinux.org/Jetson/Performance#Maximizing_CPU_performance)
+* [Jetson_Nano_Links](https://forums.developer.nvidia.com/t/links-to-jetson-nano-resources-wiki/71639)
+  
 
 * [Arrow datasheets](https://static6.arrow.com/aropdfconversion/d6d7d39921458360765c21faf5c22a3988a06ba9/jetson-nano-devkit-datasheet.pdf)
 * [SiliconHighway_datasheet](https://siliconhighway.com/wp-content/gallery/jetson-nano-module-datasheet-us-1031771-r3-hr.pdf)
