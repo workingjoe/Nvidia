@@ -13,7 +13,7 @@
 * [Nvidia_datasheet](https://developer.nvidia.com/embedded/dlc/jetson-nano-system-module-datasheet)
 ---
 # Other folks
-* [Jetson_Easy_setup](https://github.com/rbonghi/jetson_easy)
+* [QEngineering_OverClock](https://qengineering.eu/overclocking-the-jetson-nano.html)
 * [Jtop](https://github.com/rbonghi/jetson_stats)
 
 * [Update_to_20.04](https://qengineering.eu/install-ubuntu-20.04-on-jetson-nano.html)
