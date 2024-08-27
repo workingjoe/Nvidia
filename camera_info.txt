@@ -7,7 +7,7 @@ v4l2-ctl -d2 --list-formats-ext
   up to 1280x720 at 10/5fps
 
 gst-launch-1.0 v4l2src device=/dev/video2 ! video/x-raw,format=YUY2,width=640,height=480,framerate=30/1 ! nvvidconv ! 'video/x-raw(memory:NVMM),format=NV12' ! nvoverlaysink
-NOTE from Byron: This is from forum and DOES NOT WORK for me, related to v4l2src comment "since 1.14 the se of libv4l2 has been disabled" in 
+NOTE from Byron: This is from forum and DOES NOT RELIABLY WORK for me, is this related to v4l2src comment "since 1.14 the se of libv4l2 has been disabled" in 
 https://gstreamer.freedestktop.org/documentation/video4linux2
 
 gst-launch-1.0 v4l2src device=/dev/video2 ! video/x-raw,format=YUY2,width=640,height=480,framerate=30/1 ! nvvidconv ! 'video/x-raw(memory:NVMM),format=NV12' ! autovideoconvert ! xvimagesink
