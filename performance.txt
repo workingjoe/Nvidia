@@ -24,3 +24,87 @@ Memory Mark:                       1298
   Memory Latency                   78 Nanoseconds
   Memory Threaded                  11716 MB/s
 --------------------------------------------------------------------------------
+
+NANO OVERCLOCKED  -- set with overclock.sh in init.d
+  echo 1912500 > /sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq
+  echo 950000000 > /sys/devices/57000000.gpu/devfreq/57000000.gpu/max_freq
+NVIDIA Jetson Nano Developer Kit
+Cortex-A57 (aarch64)
+4 cores @ 2014 MHz  |  3.9 GiB RAM
+Number of Processes: 4  |  Test Iterations: 1  |  Test Duration: Medium
+--------------------------------------------------------------------------------
+CPU Mark:                          1284
+  Integer Math                     12467 Million Operations/s
+  Floating Point Math              3332 Million Operations/s
+  Prime Numbers                    8.4 Million Primes/s
+  Sorting                          4885 Thousand Strings/s
+  Encryption                       346 MB/s
+  Compression                      9403 KB/s
+  CPU Single Threaded              423 Million Operations/s
+  Physics                          141 Frames/s
+  Extended Instructions (NEON)     740 Million Matrices/s
+
+Memory Mark:                       656
+  Database Operations              990 Thousand Operations/s
+  Memory Read Cached               6250 MB/s
+  Memory Read Uncached             4198 MB/s
+  Memory Write                     7282 MB/s
+  Available RAM                    1008 Megabytes
+  Memory Latency                   147 Nanoseconds
+  Memory Threaded                  7439 MB/s
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+OVERCLOCKED -- default (MAX)
+NVIDIA Jetson Nano Developer Kit
+Cortex-A57 (aarch64)
+4 cores @ 2014 MHz  |  3.9 GiB RAM
+Number of Processes: 4  |  Test Iterations: 1  |  Test Duration: Medium
+--------------------------------------------------------------------------------
+CPU Mark:                          1348
+  Integer Math                     12358 Million Operations/s
+  Floating Point Math              3517 Million Operations/s
+  Prime Numbers                    8.3 Million Primes/s
+  Sorting                          5072 Thousand Strings/s
+  Encryption                       366 MB/s
+  Compression                      9990 KB/s
+  CPU Single Threaded              448 Million Operations/s
+  Physics                          141 Frames/s
+  Extended Instructions (NEON)     781 Million Matrices/s
+
+Memory Mark:                       668
+  Database Operations              1051 Thousand Operations/s
+  Memory Read Cached               6555 MB/s
+  Memory Read Uncached             4215 MB/s
+  Memory Write                     7671 MB/s
+  Available RAM                    1022 Megabytes
+  Memory Latency                   147 Nanoseconds
+  Memory Threaded                  7515 MB/s
+--------------------------------------------------------------------------------
+
+
+ORIGINAL CONFIGURATION 
+NVIDIA Jetson Nano Developer Kit
+Cortex-A57 (aarch64)
+4 cores @ 1479 MHz  |  3.9 GiB RAM
+Number of Processes: 4  |  Test Iterations: 1  |  Test Duration: Medium
+--------------------------------------------------------------------------------
+CPU Mark:                          937
+  Integer Math                     7243 Million Operations/s
+  Floating Point Math              1905 Million Operations/s
+  Prime Numbers                    6.0 Million Primes/s
+  Sorting                          3755 Thousand Strings/s
+  Encryption                       267 MB/s
+  Compression                      6933 KB/s
+  CPU Single Threaded              336 Million Operations/s
+  Physics                          128 Frames/s
+  Extended Instructions (NEON)     573 Million Matrices/s
+
+Memory Mark:                       615
+  Database Operations              838 Thousand Operations/s
+  Memory Read Cached               4908 MB/s
+  Memory Read Uncached             3916 MB/s
+  Memory Write                     5578 MB/s
+  Available RAM                    1190 Megabytes
+  Memory Latency                   152 Nanoseconds
+  Memory Threaded                  6992 MB/s
+--------------------------------------------------------------------------------
