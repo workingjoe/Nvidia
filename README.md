@@ -29,8 +29,8 @@
 
 ---
 # Lots of really good stuff
-[Install_Scripts_OpenCV](https://github.com/spmallick/learnopencv/tree/master/InstallScripts)
-[LearnOpenCV](https://github.com/spmallick/learnopencv)
+* [Install_Scripts_OpenCV](https://github.com/spmallick/learnopencv/tree/master/InstallScripts)
+* [LearnOpenCV](https://github.com/spmallick/learnopencv)
   
 ---
 # DOCS
