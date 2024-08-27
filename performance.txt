@@ -1,0 +1,26 @@
+
+Raspberry Pi 5 Model B Rev 1.0
+Cortex-A76 (aarch64)
+4 cores @ 2400 MHz  |  7.9 GiB RAM
+Number of Processes: 4  |  Test Iterations: 1  |  Test Duration: Medium
+--------------------------------------------------------------------------------
+CPU Mark:                          2205
+  Integer Math                     15217 Million Operations/s
+  Floating Point Math              11564 Million Operations/s
+  Prime Numbers                    6.0 Million Primes/s
+  Sorting                          5269 Thousand Strings/s
+  Encryption                       538 MB/s
+  Compression                      17792 KB/s
+  CPU Single Threaded              1049 Million Operations/s
+  Physics                          122 Frames/s
+  Extended Instructions (NEON)     2400 Million Matrices/s
+
+Memory Mark:                       1298
+  Database Operations              1266 Thousand Operations/s
+  Memory Read Cached               9003 MB/s
+  Memory Read Uncached             8483 MB/s
+  Memory Write                     11606 MB/s
+  Available RAM                    5975 Megabytes
+  Memory Latency                   78 Nanoseconds
+  Memory Threaded                  11716 MB/s
+--------------------------------------------------------------------------------
