@@ -10,4 +10,8 @@
 * cd build
 * cmake ../
 
-* When presented with selection dialog boxes, 
+* When presented with selection dialog boxes,
+* Select ALL pre-trained Image Recognition models (2.2GB)
+* Select ALL detection models (395MB) 
+* Take SEMANTIC Segmentation 24.25,27,29,31,33 (not legacy models)
+* Take ALL Image-Processing -ALL models
