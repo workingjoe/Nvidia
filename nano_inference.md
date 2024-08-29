@@ -15,3 +15,15 @@
 * Select ALL detection models (395MB) 
 * Take SEMANTIC Segmentation 24.25,27,29,31,33 (not legacy models)
 * Take ALL Image-Processing -ALL models
+
+* Also -- select PyTorch 3.X version for installation
+
+* make -j$(nproc)
+* sudo make install
+* sudo ldconfig
+* sudo apt-get install v4l-utils
+
+---
+* test with loading Python3  and 'import torch'  'import torchvision'  and they should load without error
+* quit()
+---
