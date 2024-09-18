@@ -1,3 +1,4 @@
+                   PassMark PerformanceTest Linux (11.0.1002)
 
 Raspberry Pi 5 Model B Rev 1.0
 Cortex-A76 (aarch64)
@@ -23,6 +24,33 @@ Memory Mark:                       1298
   Available RAM                    5975 Megabytes
   Memory Latency                   78 Nanoseconds
   Memory Threaded                  11716 MB/s
+--------------------------------------------------------------------------------
+                   PassMark PerformanceTest Linux (11.0.1002)
+
+NVIDIA Jetson Orin Nano Developer Kit
+Cortex-A78AE (aarch64)
+6 cores @ 1510 MHz  |  7.4 GiB RAM
+Number of Processes: 6  |  Test Iterations: 1  |  Test Duration: Medium
+--------------------------------------------------------------------------------
+CPU Mark:                          2618
+  Integer Math                     16791 Million Operations/s
+  Floating Point Math              13994 Million Operations/s
+  Prime Numbers                    18.9 Million Primes/s
+  Sorting                          12505 Thousand Strings/s
+  Encryption                       526 MB/s
+  Compression                      18619 KB/s
+  CPU Single Threaded              827 Million Operations/s
+  Physics                          567 Frames/s
+  Extended Instructions (NEON)     2290 Million Matrices/s
+
+Memory Mark:                       1166
+  Database Operations              2658 Thousand Operations/s
+  Memory Read Cached               11418 MB/s
+  Memory Read Uncached             8566 MB/s
+  Memory Write                     11496 MB/s
+  Available RAM                    2644 Megabytes
+  Memory Latency                   126 Nanoseconds
+  Memory Threaded                  28055 MB/s
 --------------------------------------------------------------------------------
 
 NANO OVERCLOCKED  -- set with overclock.sh in init.d
